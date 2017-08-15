@@ -1,11 +1,21 @@
-<h1>Bienvenido</h1>
-<form action="" method="post">
+<h1>Bienvenido <%= user.nombre%></h1>
+<form action="/Pizza/crearPizza" method="post">
   <div class="form-group row">
     <label for="tipo" class="col-2 col-form-label">Tipo de Masa</label>
     <div class="col-10">
       <select class="form-control" name="tipo">
-        <option>gruesa</option>
         <option>delgada</option>
+        <option>gruesa</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="tamanio" class="col-2 col-form-label">Tamanio</label>
+    <div class="col-10">
+      <select class="form-control" name="tamanio">
+        <option>mediana</option>
+        <option>personal</option>
+        <option>familiar</option>
       </select>
     </div>
   </div>
@@ -42,33 +52,11 @@
       </select>
     </div>
   </div>
+  <input type="text" name="id_Usuario" value="<%=user.id%>" hidden>
+
+  <button
+    class="btn btn-outline-success">Crear
+  </button>
 </form>
-<br>
-<br>
-<br>
-<br>
-<div class="table-responsive">
-  <div class="table table-striped">
-    <table class="table">
-      <thead>
-      <tr>
-        <th>Masa</th>
-        <th>Ingrediente 1</th>
-        <th>Ingrediente 2</th>
-        <th>Ingrediente Especial</th>
-        <th>Total</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>asdf</td>
-        <td>asdf</td>
-        <td>adfs</td>
-        <td>asdf</td>
-        <td>1234</td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+
 

@@ -11,6 +11,9 @@ module.exports = {
     var nuevaPizza = {
       tipo: parametros.tipo,
       tamanio: parametros.tamanio,
+      ingrediente1: parametros.ingrediente1,
+      ingrediente2: parametros.ingrediente2,
+      ingredienteEspecial: parametros.ingredienteEspecial,
       precio: parametros.precio,
       id_Usuario: parametros.id_Usuario
     };
@@ -20,11 +23,11 @@ module.exports = {
           return res.serverError(error);
         }
         else {
-          Usuario.find().populate('pizzas').exec(function (error, usuaariosEncontrados) {
+          Usuario.find().populate('pizzas').exec(function (error, usuariosEncontrados) {
             if (error) {
               return res.serverError(error);
             } else {
-              return res.redirect("/comprarpizza");
+              return res.view("resumen",{pizza:pizzaCreada});
             }
           })
         }

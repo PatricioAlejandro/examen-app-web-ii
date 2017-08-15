@@ -19,6 +19,15 @@ module.exports = {
       defaultsTo: "personal"
     }
     ,
+    ingrediente1: {
+      type: "string"
+    },
+    ingrediente2: {
+      type: "string"
+    },
+    ingredienteEspecial: {
+      type: "string"
+    },
     precio: {
       type: "float"
     }
@@ -27,13 +36,6 @@ module.exports = {
       model: "Usuario",
       required: true
     }
-    ,
-    ingredientes: {
-      collection: "Ingrediente",
-      via: "id_Pizza"
-    }
-
-
   }
 }
 ;

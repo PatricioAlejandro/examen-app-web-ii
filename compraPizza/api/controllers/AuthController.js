@@ -13,7 +13,7 @@ module.exports = {
       if (usuarioEncontrado){
         if(parametros.password === usuarioEncontrado.password){
           req.session.usuarioSeguro = usuarioEncontrado
-          return res.redirect("/comprarPizza");
+          return res.view("comprarpizza",{user:usuarioEncontrado});
         }else{
           return res.serverError(err);
         }
