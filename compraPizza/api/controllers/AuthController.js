@@ -7,18 +7,22 @@ module.exports = {
     var pruebaUsuario = {
       nombre: parametros.nombre
     };
-    Usuario.find(pruebaUsuario).exec(function (err, usuarioEncontrado) {
+    Usuario.findOne(pruebaUsuario).exec(function (err, usuarioEncontrado) {
       if (err)
-        return res.badRequest();
+        return res.badRequest(err);
       if (usuarioEncontrado){
-        if(parametros.password == usuarioEncontrado.password){
-          req.session.usuario = usuarioEncontrado
-          return res.ok();
+        if(parametros.password === usuarioEncontrado.password){
+          req.session.usuarioSeguro = usuarioEncontrado
+          return res.redirect("/comprarPizza");
         }else{
-          return res.badRequest();
+          return res.badRequest(err);
         }
       }
 
     })
+  },
+  logout: function (req, res) {
+    req.session.usuarioSeguro = undefined;
+    return res.view('homepage');
   }
-}
+};
