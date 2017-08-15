@@ -9,17 +9,24 @@ module.exports = {
   crearPizza: function (req, res) {
     var parametros = req.allParams();
     var nuevaPizza = {
-      nombre: parametros.nombre,
+      tipo: parametros.tipo,
       tamanio: parametros.tamanio,
+      precio: parametros.precio,
       id_Usuario: parametros.id_Usuario
     };
-    Usuario.create(nuevaPizza)
+    Pizza.create(nuevaPizza)
       .exec(function (error, pizzaCreada) {
         if (error) {
           return res.serverError(error);
         }
         else {
-          return res.redirect("/");
+          Usuario.find().populate('pizzas').exec(function (error, usuaariosEncontrados) {
+            if (error) {
+              return res.serverError(error);
+            } else {
+              return res.redirect("/comprarpizza");
+            }
+          })
         }
       });
   }

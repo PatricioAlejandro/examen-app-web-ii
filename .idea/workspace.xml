@@ -4,11 +4,9 @@
     <list default="true" id="1e7bf8de-90d9-4aa3-b7d2-1056b56372d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compraPizza/api/controllers/AuthController.js" afterPath="$PROJECT_DIR$/compraPizza/api/controllers/AuthController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compraPizza/api/controllers/PizzaController.js" afterPath="$PROJECT_DIR$/compraPizza/api/controllers/PizzaController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compraPizza/api/models/Pizza.js" afterPath="$PROJECT_DIR$/compraPizza/api/models/Pizza.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compraPizza/api/policies/validarLogin.js" afterPath="$PROJECT_DIR$/compraPizza/api/policies/validarLogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compraPizza/config/routes.js" afterPath="$PROJECT_DIR$/compraPizza/config/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compraPizza/views/comprarpizza.ejs" afterPath="$PROJECT_DIR$/compraPizza/views/comprarpizza.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compraPizza/views/homepage.ejs" afterPath="$PROJECT_DIR$/compraPizza/views/homepage.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,16 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VistaController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compraPizza/api/controllers/VistaController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compraPizza/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,8 +53,8 @@
       <file leaf-file-name="AuthController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compraPizza/api/controllers/AuthController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="568">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="e#0#48#0" expanded="false" />
               </folding>
@@ -77,27 +65,32 @@
       <file leaf-file-name="crearusuario.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compraPizza/views/crearusuario.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="31">
+              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comprarpizza.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="comprarpizza.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/compraPizza/views/comprarpizza.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="385">
+              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+              <folding>
+                <element signature="n#select#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#div#0;n#div#1;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pizza.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pizza.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compraPizza/api/models/Pizza.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
+            <state relative-caret-position="-117">
               <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding />
             </state>
@@ -107,8 +100,8 @@
       <file leaf-file-name="PizzaController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compraPizza/api/controllers/PizzaController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="556">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -119,6 +112,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-103">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usuario.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compraPizza/api/models/Usuario.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -144,16 +147,16 @@
         <option value="$PROJECT_DIR$/compraPizza/api/models/Ingrediente.js" />
         <option value="$PROJECT_DIR$/compraPizza/api/controllers/UsuarioController.js" />
         <option value="$PROJECT_DIR$/compraPizza/views/crearusuario.ejs" />
-        <option value="$PROJECT_DIR$/compraPizza/api/controllers/PizzaController.js" />
         <option value="$PROJECT_DIR$/compraPizza/api/models/Usuario.js" />
         <option value="$PROJECT_DIR$/compraPizza/config/policies.js" />
         <option value="$PROJECT_DIR$/compraPizza/api/controllers/VistaController.js" />
         <option value="$PROJECT_DIR$/compraPizza/views/homepage.ejs" />
         <option value="$PROJECT_DIR$/compraPizza/config/routes.js" />
         <option value="$PROJECT_DIR$/compraPizza/api/policies/validarLogin.js" />
-        <option value="$PROJECT_DIR$/compraPizza/api/controllers/AuthController.js" />
-        <option value="$PROJECT_DIR$/compraPizza/views/comprarpizza.ejs" />
         <option value="$PROJECT_DIR$/compraPizza/api/models/Pizza.js" />
+        <option value="$PROJECT_DIR$/compraPizza/api/controllers/AuthController.js" />
+        <option value="$PROJECT_DIR$/compraPizza/api/controllers/PizzaController.js" />
+        <option value="$PROJECT_DIR$/compraPizza/views/comprarpizza.ejs" />
       </list>
     </option>
   </component>
@@ -406,12 +409,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502756137087</updated>
-      <workItem from="1502756140059" duration="8085000" />
+      <workItem from="1502756140059" duration="10119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8085000" />
+    <option name="totallyTimeSpent" value="10119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -486,14 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compraPizza/api/models/Usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compraPizza/views/layout.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -550,14 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compraPizza/api/controllers/UsuarioController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compraPizza/config/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -566,45 +553,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/compraPizza/api/models/Pizza.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/compraPizza/api/controllers/AuthController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="568">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compraPizza/views/crearusuario.ejs">
+    <entry file="file://$PROJECT_DIR$/compraPizza/api/controllers/UsuarioController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="-103">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compraPizza/views/comprarpizza.ejs">
+    <entry file="file://$PROJECT_DIR$/compraPizza/api/models/Usuario.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/compraPizza/api/controllers/PizzaController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="556">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compraPizza/api/models/Pizza.js">
+    <entry file="file://$PROJECT_DIR$/compraPizza/views/crearusuario.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="31">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="26" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compraPizza/views/comprarpizza.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+          <folding>
+            <element signature="n#select#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#div#0;n#div#1;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#div#0;n#div#2;n#form#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#div#0;n#div#3;n#form#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

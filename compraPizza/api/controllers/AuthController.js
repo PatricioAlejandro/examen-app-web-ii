@@ -9,13 +9,13 @@ module.exports = {
     };
     Usuario.findOne(pruebaUsuario).exec(function (err, usuarioEncontrado) {
       if (err)
-        return res.badRequest(err);
+        return res.serverError(err);
       if (usuarioEncontrado){
         if(parametros.password === usuarioEncontrado.password){
           req.session.usuarioSeguro = usuarioEncontrado
           return res.redirect("/comprarPizza");
         }else{
-          return res.badRequest(err);
+          return res.serverError(err);
         }
       }
 
