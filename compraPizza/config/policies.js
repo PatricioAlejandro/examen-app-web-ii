@@ -35,7 +35,7 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
   VistaController: {
-      login:['validarLogin']
+      login:'validarLogin'
   }
 
   // RabbitController: {
