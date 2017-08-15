@@ -35,7 +35,8 @@ module.exports.routes = {
   '/': {
     view: 'homepage'
   },
-  'get /crearUsuario': 'VistaController.crearUsuario'
+  'get /crearUsuario': 'VistaController.crearUsuario',
+  'get /comprarPizza': 'VistaController.comprarPizza'
 
 
   /***************************************************************************
