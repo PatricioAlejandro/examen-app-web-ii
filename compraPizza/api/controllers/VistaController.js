@@ -6,6 +6,8 @@
  */
 
 module.exports = {
-	
+  crearUsuario: function (req, res) {
+    return res.view('crearusuario');
+  }
 };
 

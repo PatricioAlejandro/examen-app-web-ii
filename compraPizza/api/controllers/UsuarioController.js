@@ -6,14 +6,12 @@
  */
 
 module.exports = {
-  crearUsuario: function (req,res){
+  crearUsuario: function (req, res) {
     var parametros = req.allParams();
     var nuevoUsuario = {
-      nombres: parametros.nombres,
-      apellidos: parametros.apellidos,
-      password: parametros.password,
-      correo: parametros.correo,
-      fechaNacimiento: parametros.fechaNacimiento
+      nombre: parametros.nombre,
+      apellido: parametros.apellido,
+      password: parametros.password
     };
     Usuario.create(nuevoUsuario)
       .exec(function (error, usuarioCreado) {
@@ -24,24 +22,6 @@ module.exports = {
           return res.redirect("/");
         }
       });
-  },
-  borrarUsuario: function (req, res) {
-    var params = req.allParams();
-    sails.log.info("Parametros", params);
-    if (req.method == "POST" && params.id) {
-      Usuario.destroy({
-        id: params.id
-      }).exec(function (err, usuarioBorrado) {
-        if (err)
-          return res.serverError(err);
-        return res.redirect("/");
-      });
-    }
-    else {
-      return res.badRequest();
-    }
-  },
-  editarUsuario: {},
-  listarUsuario: {}
+  }
 };
 
