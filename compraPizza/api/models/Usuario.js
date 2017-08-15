@@ -8,7 +8,19 @@
 module.exports = {
 
   attributes: {
-
+    nombre: {
+      type: "string"
+    },
+    apellido: {
+      type: "string"
+    },
+    password: {
+      type: "string"
+    },
+    pizzas:{
+      collection:"Pizza",
+      via:"id_Usuario"
+    }
   }
 };
 

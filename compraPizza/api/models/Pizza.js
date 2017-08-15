@@ -8,6 +8,25 @@
 module.exports = {
 
   attributes: {
+    nombre:{
+      type:"string"
+    },
+    tamanio:{
+      type:"string",
+      enum:["mediana","personal","familiar"],
+      defaultsTo:"personal"
+    },precio:{
+        type:"float"
+    },
+    id_Usuario:{
+      model:"Usuario",
+      required:true
+    },
+    ingredientes:{
+      collection:"Ingrediente",
+      via:"id_Pizza"
+    }
+
 
   }
 };

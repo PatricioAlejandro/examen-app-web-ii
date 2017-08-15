@@ -8,7 +8,16 @@
 module.exports = {
 
   attributes: {
-
+    nombre: {
+      type: "string"
+    },
+    cantidad: {
+      type: "integer"
+    },
+    id_Pizza:{
+      model:"Pizza",
+      required:true
+    }
   }
 };
 
